@@ -37,12 +37,12 @@ float variance_function(){
     return variance ;
 }
 // here in the main function we display all the past functions and we also calculate the max value in the array
-// the bubble sort here have time complexity of O(n^2)
 int main(){
     mean_fuction() ;
     variance_function() ;
     int max_value ;
     int swap ;
+// the bubble sort here have time complexity of O(n^2)
     for ( int i=0 ; i < n ; i++ ){
         for ( int j = 0 ; j < i ; j++ ) {
             if (arr[j] > arr[j+1]){
